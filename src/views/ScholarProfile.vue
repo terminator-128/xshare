@@ -103,7 +103,6 @@
 
 	<v-spacer></v-spacer>
 		
-		
 	<!-- divider -->
 	<v-layout>
 			<v-flex>
@@ -116,21 +115,21 @@
 	class="d-flex flex-wrap"
 	yellow>
 	<!-- Article List -->
-	<v-flex
-	class=""
-	blue>
+		<v-flex
+		class=""
+		blue>
 		<v-tabs>
 			<v-tab>PUBLICATIONS</v-tab>
 			<v-tab>CITATED BY</v-tab>
 			<v-tab>CONFERENCES</v-tab>
 			<v-tab>JOURNALS</v-tab>
 		</v-tabs>
-	</v-flex>
-	<v-flex
-	class="d-none d-md-block"
-	green>
-		This is author analyse.
-	</v-flex>
+		</v-flex>
+		<v-flex
+		class="d-none d-md-block"
+		green>
+			This is author analyse.
+		</v-flex>
 	</v-layout>
 
 </v-container>
